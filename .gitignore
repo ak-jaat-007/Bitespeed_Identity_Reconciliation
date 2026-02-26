@@ -1,0 +1,9 @@
+node_modules
+.env
+dist
+*.log
+.DS_Store
+
+# Prisma generated client usually lives in node_modules, 
+# but we add this just in case of custom generators
+prisma/client
