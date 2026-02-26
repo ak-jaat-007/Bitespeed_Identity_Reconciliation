@@ -3,7 +3,7 @@
 A backend service built for the Bitespeed technical challenge to consolidate user identities across different contact points.
 
 ## 🔗 Live Endpoint
-**URL:** `https://bitespeed-identity-reconciliation-4lj3.onrender.com/identify`
+**URL:** [Live API Endpoint](https://bitespeed-identity-reconciliation-4lj3.onrender.com/identify)
 
 ## 🛠️ Tech Stack
 - **Node.js & TypeScript** 🚀 (v22+)
@@ -65,7 +65,7 @@ npm start
 ```json
 {
   "contact": {
-    "primaryContatctId": 1,
+    "primaryContactId": 1,
     "emails": ["lorraine@hillvalley.edu", "mcfly@hillvalley.edu"],
     "phoneNumbers": ["123456"],
     "secondaryContactIds": [2]
